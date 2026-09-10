@@ -1,0 +1,8 @@
+tensorflow
+opencv-python
+numpy
+Pillow
+matplotlib
+scikit-learn
+h5py
+pyserial

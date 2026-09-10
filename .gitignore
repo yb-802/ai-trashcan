@@ -1,0 +1,79 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Python tools
+
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Dataset
+
+dataset/*
+!dataset/.gitkeep
+
+# Trained models
+
+models/*
+!models/.gitkeep
+
+# TensorFlow / Keras generated files
+
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+checkpoint
+checkpoints/
+
+# Training output
+
+runs/
+logs/
+results/
+
+# Temporary / test files
+
+test/
+tests/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Camera / generated images
+
+captures/
+output/
+outputs/
+
+# Local configuration
+
+.env
+*.local
+
+# Arduino generated files
+
+arduino/build/
