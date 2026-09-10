@@ -454,38 +454,7 @@ python src/nano_code.py
 
 ---
 
-# 8. Why Model Is Not Included
-
-訓練完成的模型可能具有數百 MB 的大小，因此不直接放入一般 Git repository。
-
-如果需要分享模型，可以使用：
-
-- Google Drive
-- Hugging Face
-- GitHub Releases
-- Git LFS
-
-README 可以另外提供模型下載位置。
-
----
-
-# 9. Why Dataset Is Not Included
-
-Dataset 通常包含大量圖片，直接放入 GitHub 會使 repository 非常龐大。
-
-因此：
-
-```text
-Source Code → GitHub
-Dataset     → Dataset hosting
-Model       → Model hosting
-```
-
-這樣可以讓 GitHub repository 保持乾淨，也方便日後更新程式。
-
----
-
-# 10. Recommended Workflow
+# 8. Recommended Workflow
 
 第一次使用：
 
@@ -519,21 +488,7 @@ python src/nano_code.py
 
 ---
 
-# 11. Important Notes
-
-- `nano_code.py` 是正式系統的主要入口。
-- `classification.py` 負責模型推論。
-- `classify.py` 負責模型訓練。
-- `controller.ino` 負責 Arduino 硬體控制。
-- Dataset 不需要放 GitHub。
-- 訓練完成的模型不需要放 GitHub。
-- 不需要 `yolo.py`。
-- 不需要舊版測試程式。
-- 不需要將 Python 的測試圖片或暫存檔加入 repository。
-
----
-
-# 12. Project Architecture
+# 9. Project Architecture
 
 ```text
                     ┌─────────────────┐
